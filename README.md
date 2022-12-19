@@ -16,10 +16,12 @@ Exports the final model as a pickle file
 
 # 3. Flask Web App
 The web app uses the trained model to input text and return classification results.
+
+![](https://github.com/prabhagtec/Disaster-Response/blob/main/DS.PNG)
+
 Using Plotly in the web app, below visualizations are derived from the data
-
-![](DS.png)
-
+![](https://github.com/prabhagtec/Disaster-Response/blob/main/Category.PNG)
+![](https://github.com/prabhagtec/Disaster-Response/blob/main/Genre.PNG)
 # 4. How to run the Python scripts and web app
 
 1. To run ETL pipeline that cleans data and stores in database
@@ -36,4 +38,4 @@ Using Plotly in the web app, below visualizations are derived from the data
 
 # 5. Conclusion
 
-The detail findings of the code can be found at the post available [here](https://medium.com/@prabhagtec/what-determines-the-price-of-airbnb-accommodation-in-seattle-f5738305e591).
+From above visualization, data are highly imbalanced  by category which affects model prediction. 
