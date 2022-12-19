@@ -18,6 +18,8 @@ Exports the final model as a pickle file
 The web app uses the trained model to input text and return classification results.
 Using Plotly in the web app, below visualizations are derived from the data
 
+![](DS.png)
+
 # 4. How to run the Python scripts and web app
 
 1. To run ETL pipeline that cleans data and stores in database
